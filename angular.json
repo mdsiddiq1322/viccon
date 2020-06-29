@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "viccon"
+    }
+  },
+  "defaultProject": "viccon",
+  "cli": {
+    "analytics": false
+  }
 }
