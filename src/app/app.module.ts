@@ -10,6 +10,7 @@ import { AboutComponent } from './Components/about/about.component';
 import { ServicesComponent } from './Components/services/services.component';
 import { ContactComponent } from './Components/contact/contact.component';
 import { PortfolioComponent } from './Components/portfolio/portfolio.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { PortfolioComponent } from './Components/portfolio/portfolio.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

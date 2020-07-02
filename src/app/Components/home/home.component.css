@@ -1,0 +1,143 @@
+.welcome{
+    font-family: 'Raleway', sans-serif !important;
+    position: relative;
+    color: black;
+    min-height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.welcome h1{
+    font-size: 6vh;
+    font-weight: bold;
+}
+@media screen and (min-width: 480px){
+    .welcome h1{
+        font-size: 6vw;
+    }
+}
+
+.wel-co{
+    position: relative;
+    width: fit-content;
+    margin: 0px auto;
+}
+
+.wwd h1{
+    color: red;
+    width: 100%;
+    text-align: center;
+}
+.wwd h2,p{
+    color: black;
+}
+/* .wwd{
+    width: 100%;
+} */
+
+.wwd-card p{
+    text-align: justify !important;
+    z-index: 3;
+}
+.wwd-card{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    overflow: hidden;
+    height: 100%;
+}
+
+.wwd-card-row div{
+    min-height: 450px;
+}
+
+.wwd-card a{
+    position: relative;
+    color: #e51c21;
+    transition-duration: 0.3s;
+    border: 1px solid #e51c21;
+    padding: 10px 15px;
+    border-radius: 25px;
+    margin-top: 70px;
+}
+.wwd-card i{
+    margin-bottom: -3px;
+}
+
+.wwd-card p{
+    padding: 0px 20px;
+}
+
+@media screen and (min-width: 480px){
+    .wwd-card p{
+        padding: 10px 50px;
+    }
+}
+@media screen and (min-width: 760px) and (max-width: 980px){
+    .wwd-card p{
+        padding: 10px 20px;
+    }
+    .wwd-card{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* .wwd-card:nth-of-type(odd){
+    color: black;
+}
+.wwd-card:nth-of-type(even){
+    color: rgb(221, 48, 48);
+} */
+
+.wwd-card:hover{
+    background-color: rgb(202, 202, 202);
+}
+.wwd-card a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #e51c21;
+    transition-duration: 0.3s;
+}
+
+
+.contact-btn a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #e51c21;
+    border: 1px solid #e51c21;
+}
+.contact-btn a:hover{
+    background-color: #e51c21;
+    color: white;
+}
+.uparrow i{
+    position: fixed;
+    display: none;
+    font-size: 55px;
+    color: black;
+    cursor: pointer;
+    z-index: 99;
+    border: 1px solid #e51c21;
+    padding: 5px 15px;
+    border-radius: 50%;
+    background-color: #e51c21;
+}
+.uparrow{
+    position: absolute;
+    bottom: 90px;
+    right: 90px;
+    
+}
+.uparrow:hover i{
+    color: white;
+}
+
+.carousel p{
+    font-size: 18px;
+    font-weight: 500;
+    z-index: 99;
+    cursor: pointer;
+}

@@ -1,1 +1,52 @@
-<p>navbar works!</p>
+<nav id="navBar" class="navbar fixed-top navbar-expand-lg mb-3">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img class="desk-logo" src="assets/images/logo.png" alt="" />
+        </a>
+        <fa-icon
+          [icon]="ibars"
+          class="navbar-toggler ml-auto"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarToggler"
+          aria-controls="navbarToggler"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+        </fa-icon>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="navbar-nav ml-auto ml-0 ml-md-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a routerLinkActive="active" routerLink="/" class="nav-link">
+                <fa-icon [icon]="ihome"></fa-icon>
+                Home
+              </a>
+            </li>
+            <li class="nav-item">
+              <a routerLinkActive="active"  routerLink="/about" class="nav-link">
+                <fa-icon [icon]="iabout"></fa-icon>
+                About
+              </a>
+            </li>
+            <li class="nav-item">
+              <a routerLinkActive="active" routerLink="/services" class="nav-link">
+                <fa-icon [icon]="iservices"></fa-icon>
+                Services
+              </a>
+            </li>
+            <li class="nav-item">
+              <a routerLink="/portfolio" class="nav-link">
+                <fa-icon [icon]="iportfolio"></fa-icon>
+                Portfolio
+              </a>
+            </li>
+            <li class="nav-item">
+              <a routerLink="/contact" class="nav-link">
+                <fa-icon [icon]="icontact"></fa-icon>
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>

@@ -1,1 +1,53 @@
-<p>footer works!</p>
+<footer>
+      <section class="container pt-5 pb-3">
+        <div class="row">
+          <div class="social col-12 col-md-4">
+            <img src="assets/images/logo.png" alt="">
+            <ul>
+              <li><fa-icon [icon]="iinsta"></fa-icon></li>
+              <li><fa-icon [icon]="ifb"></fa-icon></li>
+              <li><fa-icon [icon]="itwitter"></fa-icon></li>
+            </ul>
+          </div>
+            <div class="col-12 col-md-4">
+              <h3 class="red topic">Quick Links</h3>
+              <ul id="quicklinks">
+                <li>
+                  <a routerLink="/">
+                    <fa-icon [icon]="ihome" class="pr-1"></fa-icon>
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a routerLink="/about">
+                    <fa-icon [icon]="iabout" class="pr-1"></fa-icon>
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a routerLink="/services">
+                    <fa-icon [icon]="iservices" class="pr-1"></fa-icon>
+                    Services
+                  </a>
+                </li>
+                <li>
+                  <a routerLink="/portfolio">
+                    <fa-icon [icon]="iportfolio" class="pr-1"></fa-icon>
+                    Portfolio
+                  </a>
+                </li>
+                <li>
+                  <a routerLink="/contact">
+                    <fa-icon [icon]="icontact" class="pr-1"></fa-icon>
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+          <div class="col-12 col-md-4"></div>
+        </div>
+      </section>
+      <section id="credits" class="topic center">
+        VI<span class="red">CC</span>ON &copy; 2020 All rights reserved
+      </section>
+</footer>

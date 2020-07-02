@@ -1,0 +1,54 @@
+footer{
+    background-color: white;
+    color: black;
+    overflow: hidden;
+}
+footer #credits{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+footer img{
+    z-index: 99;
+}
+footer ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+footer ul li{
+    padding: 5px 10px;
+    width: 100%;
+    cursor: pointer;
+}
+footer ul li a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    transition-duration: 0.2s;
+}
+footer ul li:hover a{
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    transition-duration: 0.2s;
+}
+footer fa-icon{
+    font-size: 10px;
+    color: #e51c21;
+}
+footer img{
+    width: 20vh;
+}
+footer .social fa-icon{
+    color: black !important;
+    font-size: 25px;
+}
+footer .social fa-icon:hover{
+    color: #e51c21 !important;
+}
+footer .social ul li{
+    display: inline;
+}
+.social ul{
+    padding-top: 20px;
+    display: table;
+}

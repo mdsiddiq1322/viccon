@@ -1,0 +1,65 @@
+.desk-logo{
+    height: 27px;
+    padding-left: 22px;
+}
+@media screen and (min-width: 500px){
+    .desk-logo{
+        height: 35px;
+    }
+}
+.navbar{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: white;
+}
+.navbar-nav{
+    position: relative;
+    min-height: 100vh;
+    text-align: center;
+}
+.navbar-nav a{
+    color: black;
+    border-bottom: 2px solid transparent;
+    transition-duration: 0.5s;
+    font-size: 25px;
+}
+.navbar-nav fa-icon{
+    display: none;
+}
+.navbar-nav li{
+    position: relative;
+    top: 30vh;
+    padding: 0px 10px;
+}
+@media screen and (min-width: 480px){
+    .navbar-nav{
+        min-height: 0px !important;
+    }
+    .navbar-nav li{
+        top: 0vh !important;
+    }
+    .navbar-nav fa-icon{
+        display: unset;
+    }
+    .navbar-nav a{
+        font-size: 16px;
+    }
+    .navbar-nav a:hover{
+        transition-duration: 0.3s;
+        border-bottom: 2px solid red;
+    }
+    .navbar-nav a:hover fa-icon{
+        transition-duration: 0.3s;
+        color: #e51c21;
+    }
+    .navbar-nav .active{
+        border-bottom: 2px solid #e51c21;
+    }
+    .navbar-nav .active>fa-icon{
+        color: #e51c21;
+    }
+}
+.navbar fa-icon{
+    color: black;
+}

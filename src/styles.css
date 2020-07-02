@@ -1,1 +1,50 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.red{
+    color: #e51c21;
+}
+.center{
+    text-align: center;
+}
+
+.topic{
+    font-size: 30px;
+}
+.title{
+    font-size: 45px;
+    font-weight: bold;
+}
+@media screen and (min-width: 800px){
+    .title{
+        font-size: 60px;
+    }
+}
+.justify{
+    text-align: justify;
+}
+.caps{
+    text-transform: uppercase;
+}
+.topic{
+    font-family: 'Raleway', sans-serif ;
+}
+.title{
+    font-family: 'Raleway', sans-serif ;
+}
+.content{
+    font-family: 'Poppins', serif;
+}
+.underline{
+    text-decoration: underline;
+}
